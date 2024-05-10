@@ -8,11 +8,15 @@ while True:
         if operation not in ['1','2','3','4']:
             print("Invalid input. Please enter the number before the operation.")
             continue
+# Ask the user to enter the first number
+        first_number = float(input("Enter the first number: "))
+        print(first_number)
+# Ask the user to enter the second number
+        second_number = float(input("Enter the second number: "))
+        print(second_number)
+# Print an error message when there is an error
     except:
         print("Unknown Error.")
-# Ask the user to enter the first number
-# Ask the user to enter the second number
 # Perform the operation
 # Print the result
-# Print an error message when there is an error
 # Ask the user if they want to try again
