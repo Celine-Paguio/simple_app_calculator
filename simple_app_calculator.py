@@ -38,3 +38,18 @@ while True:
     except:
         print("Unknown Error.")
 # Ask the user if they want to try again
+    try:
+        try_again = input("Do you want to try again? (y/n): ")
+        if try_again.lower() == "y":
+            continue
+        elif try_again.lower() == "n":
+            print("Thank you!")
+            break
+        else:
+            print('The program identified that you did not enter "y/n". The program will close now. Thank you!')
+            break
+# Print an error message when there is an error
+    except:
+        print("Unknown Error")
+
+# End of program
