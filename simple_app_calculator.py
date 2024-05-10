@@ -10,13 +10,27 @@ while True:
             continue
 # Ask the user to enter the first number
         first_number = float(input("Enter the first number: "))
-        print(first_number)
 # Ask the user to enter the second number
         second_number = float(input("Enter the second number: "))
-        print(second_number)
+# Perform the operation
+        if operation == "1":
+            sum = first_number + second_number
+# Print the result 
+            print("The sum is",sum)
+        elif operation == "2":
+            difference = first_number - second_number
+# Print the result 
+            print("The difference is",difference)
+        elif operation == "3":
+            product = first_number * second_number
+# Print the result 
+            print("The product is",product)
+        else:
+            if operation == "4":
+                quotient = first_number / second_number
+# Print the result 
+                print("The quotient is",quotient)
 # Print an error message when there is an error
     except:
         print("Unknown Error.")
-# Perform the operation
-# Print the result
 # Ask the user if they want to try again
