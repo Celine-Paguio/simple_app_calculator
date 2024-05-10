@@ -33,8 +33,8 @@ while True:
 # Print an error message when there is an error
     except ZeroDivisionError:
         print("Division by zero error.")
-    except ValueError as e:
-        print("Error: ",e)
+    except ValueError as error:
+        print("Error: ",error)
     except:
         print("Unknown Error.")
 # Ask the user if they want to try again
